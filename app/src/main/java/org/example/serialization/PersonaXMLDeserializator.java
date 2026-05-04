@@ -14,7 +14,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
-public class DeserializePersonaFromXML extends ResourceReader {
+public class PersonaXMLDeserializator extends ResourceReader {
     public List<Persona> deserialize() {
         try{
             Document document = getDocument("persone.xml");
@@ -27,7 +27,7 @@ public class DeserializePersonaFromXML extends ResourceReader {
             }
             return list;
         } catch(Exception ex){
-            throw new SerializationException("Errore nella lettura del file: " + ex.getMessage());
+            throw new SerializationException("Errore nella lettura del file persone.xml: " + ex.getMessage());
         }
     }
 

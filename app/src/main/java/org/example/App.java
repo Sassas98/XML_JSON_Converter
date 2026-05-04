@@ -8,19 +8,29 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
+import org.example.model.Albero;
 import org.example.model.Persona;
-import org.example.serialization.DeserializePersonaFromXML;
-import org.example.serialization.SerializePersonaToJson;
+import org.example.serialization.AlberoJsonDeserializator;
+import org.example.serialization.AlberoXMLSerialization;
+import org.example.serialization.PersonaJsonSerializator;
+import org.example.serialization.PersonaXMLDeserializator;
 
 public class App {
 
     public static void main(String[] args) throws IOException {
         runPersone();
+        runAlberi();
     }
 
     private static void runPersone() throws IOException {
-        List<Persona> persone = new DeserializePersonaFromXML().deserialize();
-        String json = new SerializePersonaToJson().serialize(persone);
+        List<Persona> persone = new PersonaXMLDeserializator().deserialize();
+        String json = new PersonaJsonSerializator().serialize(persone);
         Files.writeString(Path.of("persone.json"), json);
+    }
+
+    private static void runAlberi() throws IOException {
+        List<Albero> alberi = new AlberoJsonDeserializator().deserialize();
+        String xml = new AlberoXMLSerialization().serialize(alberi);
+        Files.writeString(Path.of("alberi.xml"), xml);
     }
 }

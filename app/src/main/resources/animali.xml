@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animali>
+  <Animale id="1">
+    <Nome>Lupo</Nome>
+    <Specie>Canis lupus</Specie>
+    <Habitat>Foresta</Habitat>
+    <Alimentazione>Carnivoro</Alimentazione>
+  </Animale>
+
+  <Animale id="2">
+    <Nome>Delfino</Nome>
+    <Specie>Delphinidae</Specie>
+    <Habitat>Mare</Habitat>
+    <Alimentazione>Carnivoro</Alimentazione>
+  </Animale>
+
+  <Animale id="3">
+    <Nome>Aquila</Nome>
+    <Specie>Aquila chrysaetos</Specie>
+    <Habitat>Montagna</Habitat>
+    <Alimentazione>Carnivoro</Alimentazione>
+  </Animale>
+
+  <Animale id="4">
+    <Nome>Tartaruga</Nome>
+    <Specie>Testudines</Specie>
+    <Habitat>Terra e acqua</Habitat>
+    <Alimentazione>Onnivoro</Alimentazione>
+  </Animale>
+
+  <Animale id="5">
+    <Nome>Panda</Nome>
+    <Specie>Ailuropoda melanoleuca</Specie>
+    <Habitat>Foresta di bambù</Habitat>
+    <Alimentazione>Erbivoro</Alimentazione>
+  </Animale>
+</Animali>

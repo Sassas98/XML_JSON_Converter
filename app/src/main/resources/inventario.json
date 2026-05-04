@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nome": "Spada di Ferro",
+    "tipo": "Arma",
+    "rarita": "Comune",
+    "valore": 25,
+    "equipaggiabile": true
+  },
+  {
+    "id": 2,
+    "nome": "Pozione Curativa",
+    "tipo": "Consumabile",
+    "rarita": "Comune",
+    "valore": 10,
+    "equipaggiabile": false
+  },
+  {
+    "id": 3,
+    "nome": "Mantello dell'Ombra",
+    "tipo": "Armatura",
+    "rarita": "Rara",
+    "valore": 120,
+    "equipaggiabile": true
+  },
+  {
+    "id": 4,
+    "nome": "Chiave Antica",
+    "tipo": "Oggetto speciale",
+    "rarita": "Unica",
+    "valore": 0,
+    "equipaggiabile": false
+  },
+  {
+    "id": 5,
+    "nome": "Anello della Fortuna",
+    "tipo": "Accessorio",
+    "rarita": "Epica",
+    "valore": 300,
+    "equipaggiabile": true
+  }
+]

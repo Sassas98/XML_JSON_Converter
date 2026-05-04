@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Quercia",
+        "descrizione": "La quercia è un albero maestoso e resistente, simbolo di forza e longevità. Le sue foglie sono lobate e i suoi frutti sono ghiande.",
+        "altezza": 20
+    },
+    {
+        "id": 2,
+        "nome": "Pino",
+        "descrizione": "Il pino è un albero sempreverde con aghi sottili e resinosi. È spesso utilizzato per la produzione di legname e resina.",
+        "altezza": 15
+    },
+    {
+        "id": 3,
+        "nome": "Acero",
+        "descrizione": "L'acero è un albero deciduo noto per le sue foglie a forma di mano e per il suo legno pregiato. In autunno, le sue foglie si tingono di colori vivaci.",
+        "altezza": 12
+    }
+]

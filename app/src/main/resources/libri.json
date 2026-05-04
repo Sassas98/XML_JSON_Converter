@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "titolo": "Il Signore degli Anelli",
+    "autore": "J.R.R. Tolkien",
+    "anno": 1954,
+    "genere": "Fantasy"
+  },
+  {
+    "id": 2,
+    "titolo": "Il nome della rosa",
+    "autore": "Umberto Eco",
+    "anno": 1980,
+    "genere": "Giallo storico"
+  },
+  {
+    "id": 3,
+    "titolo": "1984",
+    "autore": "George Orwell",
+    "anno": 1949,
+    "genere": "Distopico"
+  },
+  {
+    "id": 4,
+    "titolo": "Frankenstein",
+    "autore": "Mary Shelley",
+    "anno": 1818,
+    "genere": "Gotico"
+  },
+  {
+    "id": 5,
+    "titolo": "La coscienza di Zeno",
+    "autore": "Italo Svevo",
+    "anno": 1923,
+    "genere": "Romanzo"
+  }
+]
