@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Persone>
+  <Persona>
+    <Nome>Mario</Nome>
+    <Cognome>Rossi</Cognome>
+    <Eta>52</Eta>
+    <Residenza>Civitanova</Residenza>
+  </Persona>
+  <Persona>
+    <Nome>Marta</Nome>
+    <Cognome>Bianchi</Cognome>
+    <Eta>33</Eta>
+    <Residenza>Marotta</Residenza>
+  </Persona>
+  <Persona>
+    <Nome>Carlo</Nome>
+    <Cognome>Verdi</Cognome>
+    <Eta>27</Eta>
+    <Residenza>Macerata</Residenza>
+  </Persona>
+</Persone>
