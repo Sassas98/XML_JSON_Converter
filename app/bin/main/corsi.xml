@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Corsi>
+  <Corso id="1">
+    <Nome>Programmazione Base</Nome>
+    <Docente>Rossi</Docente>
+    <Ore>30</Ore>
+    <Aula>Lab 1</Aula>
+    <Attivo>true</Attivo>
+  </Corso>
+
+  <Corso id="2">
+    <Nome>Database</Nome>
+    <Docente>Bianchi</Docente>
+    <Ore>24</Ore>
+    <Aula>Lab 2</Aula>
+    <Attivo>true</Attivo>
+  </Corso>
+
+  <Corso id="3">
+    <Nome>Grafica Digitale</Nome>
+    <Docente>Verdi</Docente>
+    <Ore>18</Ore>
+    <Aula>Aula 5</Aula>
+    <Attivo>false</Attivo>
+  </Corso>
+
+  <Corso id="4">
+    <Nome>Reti Informatiche</Nome>
+    <Docente>Neri</Docente>
+    <Ore>28</Ore>
+    <Aula>Lab 3</Aula>
+    <Attivo>true</Attivo>
+  </Corso>
+
+  <Corso id="5">
+    <Nome>Robotica</Nome>
+    <Docente>Ferrari</Docente>
+    <Ore>20</Ore>
+    <Aula>Officina</Aula>
+    <Attivo>false</Attivo>
+  </Corso>
+</Corsi>
